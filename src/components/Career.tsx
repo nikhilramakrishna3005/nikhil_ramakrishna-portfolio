@@ -73,7 +73,7 @@ const Career = () => {
             </div>
             <p>
               Contributed to application development across UI and backend
-              workflows using C/C++,Python, Flask, React, and Node.js. Helped design
+              workflows using Go,Python, Flask, React, and Node.js. Helped design
               user-facing features, worked on prototyping and feedback-driven
               improvements, and collaborated in an agile development environment.
             </p>

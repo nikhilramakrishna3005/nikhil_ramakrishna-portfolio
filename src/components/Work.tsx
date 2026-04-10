@@ -27,8 +27,9 @@ const projects = [
     title: "Zero Hunger",
     category: "Web Development · Social Impact",
     description:
-      "Constructed an online platform for Vasavi Clubs International to promote the Zero Hunger Challenge and raise awareness about food security and waste reduction. Built the website using React for frontend development and Python for backend functionality.",
+      "Constructed an online platform for Vasavi Clubs International to promote the Zero Hunger Challenge and raise awareness about food security and waste reduction. Built the website using React for frontend development and Go andPython for backend functionality.",
     tools: [
+      "Go",
       "React",
       "Python",
       "Frontend Development",
