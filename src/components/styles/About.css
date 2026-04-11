@@ -10,28 +10,32 @@
 
 .about-me {
   padding: 50px 0px;
-  width: 600px;
+  width: 700px;
   max-width: calc(100% - 20px);
 }
 
-/* Title */
+/* 🔥 Heading */
 .about-me h3 {
-  font-size: 16px;
+  font-size: 42px;
   text-transform: uppercase;
-  letter-spacing: 6px;
-  font-weight: 400;
-  color: var(--accentColor);
-  margin-bottom: 20px;
+  letter-spacing: 4px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #ffffff;
 }
 
-/* Paragraphs */
+.about-me h3 .about-me-highlight {
+  color: var(--accentColor);
+}
+
+/* 🔥 Summary text */
 .about-me p {
-  font-size: 18px;        /* ✅ clean readable size */
-  font-weight: 300;       /* ✅ remove bold */
-  line-height: 1.8;       /* ✅ good spacing */
-  letter-spacing: 0.3px;
-  color: #d1d1d1;
-  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  color: #d6d6d6;
+  margin-bottom: 18px;
 }
 
 /* Tablet */
@@ -41,10 +45,10 @@
   }
 }
 
-/* Medium screens */
+/* Medium */
 @media only screen and (min-width: 768px) {
   .about-me {
-    width: 600px;
+    width: 700px;
     max-width: calc(100% - 70px);
   }
 }
@@ -64,16 +68,22 @@
     padding: 0;
   }
 
+  .about-me h3 {
+    font-size: 48px;
+  }
+
   .about-me p {
-    font-size: 18px;     /* ✅ FIXED (no vw scaling) */
-    line-height: 1.8;
+    font-size: 26px;
   }
 }
 
-/* Ultra wide screens */
+/* Ultra wide */
 @media only screen and (min-width: 1950px) {
+  .about-me h3 {
+    font-size: 54px;
+  }
+
   .about-me p {
-    font-size: 20px;
-    line-height: 1.9;
+    font-size: 28px;
   }
 }
