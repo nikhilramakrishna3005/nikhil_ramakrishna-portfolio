@@ -63,16 +63,14 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>SOFTWARE ENGINEER</h3>
+              <h3 className="one-line-title">SOFTWARE ENGINEER</h3>
               <h4>Backend and Frontend</h4>
               <p>
-                I build end-to-end applications with a stronger focus on backend
-                engineering. My work includes designing REST APIs, implementing
-                business logic, integrating databases, and building responsive
-                frontend interfaces that connect cleanly with scalable backend
-                systems.
+                I build end-to-end applications with strong backend focus —
+                designing REST APIs, implementing business logic, integrating
+                databases, and connecting scalable systems with clean frontend
+                interfaces.
               </p>
-              <div className="what-arrow"></div>
             </div>
           </div>
 
@@ -93,16 +91,13 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>AI ENGINEER</h3>
+              <h3 className="one-line-title">AI ENGINEER</h3>
               <h4>Cloud, Data and Backend Integration</h4>
               <p>
-                I build AI-driven solutions by combining machine learning, data
-                workflows, cloud deployment, and backend integration. My focus
-                is on turning data and models into real-world applications
-                through scalable APIs, intelligent systems, and production-ready
-                engineering.
+                I build AI systems by combining machine learning, data
+                pipelines, cloud deployment, and backend integration — turning
+                models into scalable, production-ready applications.
               </p>
-              <div className="what-arrow"></div>
             </div>
           </div>
         </div>
